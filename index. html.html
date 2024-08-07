@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>PRICNCE SAAD MURTAZA</title>
+</head>
+<style>
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-faimly:poppins;
+  text-align:center;
+}
+body{
+  background-color:#f2f2f2;
+}
+.slide{
+  height:100%;
+  width:180px;
+  background-color:#fff;
+  position:absolute;
+  transition:0.5s ease;
+  transform:translateX(-180px);
+}
+h1{
+  color:#8000ff;;
+  font-weight:800;
+  text-align:right;
+  padding:10px;
+  padding-right:45px;
+  pointer-events:none;
+}
+ul li{
+  list-style:none;
+}
+ul li a{
+  color:#011a41;
+  font-weight:500;
+  padding: 5px 0;
+  text-transformation:capitalise;
+  display:block;
+  transition:0.2s ease;
+  text-decoration:none;
+  text-align:left;
+}
+ul li:hover a{
+  color:#fff;
+  background-color:red;
+}
+ul li a i{
+  width:40px;
+  text-align:center;
+}
+.input{
+  visibility:hidden;
+  display:none;
+  -wikibit-appearance:none;
+}
+.toggle{
+  position:absolute;
+  cursor:pointer;
+  top:13px;
+  left:20px;
+  height:25px;
+  width:30px;
+  z-index:1;
+  border-radius:2px;
+  background-color:#fff;
+  box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+.toggle .common{
+  position:absolute;
+  background-color:#8000ff;
+  height:3px;
+  width:25px;
+  border-radius:50px;
+  transition:0.2s ease;
+}
+.toggle .top-line{
+  top:20%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.toggle .medium-line{
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.toggle .bottom-line{
+  top:80%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.input:checked ~ .toggle .top-line{
+  left:2px;
+  top:11px;
+  transform:rotate(45deg);
+}
+.input:checked ~ .toggle .bottom-line{
+  left:2px;
+  top:11px;
+  transform:rotate(-45deg);
+}
+.input:checked ~ .toggle .medium-line{
+  display:none;
+}
+.input:checked ~ .slide{
+  transform:translateX(0);
+  box-shadow:0 0 15px rgba(0,0,0,5);
+}
+  b{
+    margin:0;
+    padding:0;
+  }
+  label{
+    color:green;
+  }
+  iframe{
+    border:2px solid green;
+  }
+h2{
+  
+  background-color:black;
+  color:aqua;
+  font-size:30px;
+  font-weight:800;
+  text-align:center;
+  padding:15px;
+  margin:40px;
+  padding-left:40px;
+  border:2px solid green;
+  pointer-events:none;
+  border-radius:10px;
+}
+  p,textarea{
+    background-color:black;
+    border:2px solid green;
+    color:aqua;
+    text-align:center;
+    marign:20px;
+  }
+button{
+  margin:2px;
+  padding:4px;
+  background-color:red;
+  color:white;
+}
+  </style>
+<body>
+  <label>
+    <input type="checkbox" class="input">
+    <div class="toggle">
+      <span class="top-line common"></span>
+      <span class="medium-line common"></span>
+      <span class="bottom-line common"></span>
+    </div>
+    <div class="slide">
+  <h1>MENU</h1>
+    <ul>
+      <li><a href="#"><i class="fas fa-tv"></i>Dashboard</a></li>
+      <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+      <li><a href="#"><i class="fas fa-fire"></i>Trending</a></li>
+      <li><a href="#"><i class="fas fa-comments"></i>Messages</a></li>
+      <li><a href="#"><i class="fas fa-folder"></i>Portfolio</a></li>
+      <li><a href="#"><i class="fas fa-heart"></i>Saved</a></li>
+      <li><a href="#"><i class="fas fa-cogs"></i>Settings</a></li>
+    </ul>
+      </div>
+  </label>
+  <h2>Saad Murtaza</h2>
+  <p>Saad Murtaza S/O Hafiz Ghulam Murtaza 
+    is the owner as well as creator of this website
+  </p>
+  <img src= "Snapchat-2022773763.jpg" width="200" ></img>
+  <br>
+  <a href = "https://lms2.numl.edu.pk/login/index.php">Click here to go to numl lms logins</a>
+  <br>
+  <a href = "https://chatgpt.com/ " >Click here to go to Chatgpt</a>
+  <br>
+  
+  
+  <button>
+    <span>Prince</span>
+  </button>
+  <button>
+    <span>Saad</span>
+  </button>
+  <button>
+    <span>Murtaza</span>
+     </button>
+  <div>
+  <form action="form.php">
+  <b>Choose your gender</b>
+    <br>
+  <label for="sectionida">
+    <input type="radio" value="Male" name="male" id="sectionida">Male
+ 
+  
+    <input type="radio" value="Female" name="female" id="sectionidb">Female
+  <label for="sectionida"> </label>
+    <br>
+    <input type="checkbox" name="Canteen" id="canteenid">
+    <label for="Canteen" contextmenu="Hahah"class="Canteen card">Canteen Card</label>
+    <br>
+    <textarea name="eplain" id="explain" cols="30" rows="10" placeholder="Explain about yourself" ></textarea>
+    <br>
+    <b> Select your current degree level</b>
+    <br>
+    <select name="Degree" id="Education" >Select your current degree level
+    <option value=".....">Select ....</option>
+      <option value="FSc">FSc</option>
+     <option value="BS">BS</option>
+     <option value="MS">MS</option>
+      <option value="MS">PH.D</option>
+      </select>
+    <br>
+  </form>
+    <video controls="" src="vid2.mp4" width="200"></video>
+    <br>
+   <iframe width="250" height="80" src="https://www.youtube-nocookie.com/embed/-qWK9vto-jE?si=QbdsLeOnc2Pv792y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <br>
+    <iframe src="https://www.wikipedia.org/" height="80" width="300"></iframe>
+    </div>
+</body>
+</html>
